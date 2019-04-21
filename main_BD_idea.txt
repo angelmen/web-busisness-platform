@@ -1,0 +1,54 @@
+====================================
+Persona
+====================================
+id
+nombre
+apellido
+direccion
+	calle
+	sector
+	ciudad
+telefono
+email
+username
+contraseña
+privilegios
+
+====================================
+factura
+====================================
+id/No. factura
+Fecha emision
+vendedor/cliente
+
+====================================
+detalle de factura
+====================================
+id/codigo de producto
+nombre de producto
+precio
+
+====================================
+producto
+====================================
+id/codigo de producto
+nombre
+precio
+stock/cuantos quedan
+ubicacion/almacen
+
+====================================
+categoría de producto
+====================================
+tipo de producto
+cantidad de productos diferentes dentro de la categoría
+
+====================================
+metodo de pago
+====================================
+id facturacion
+nombre de cliente
+tipo de cliente
+credito / instantaneo
+metodo de pago
+otros detalles
