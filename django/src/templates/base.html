@@ -1,0 +1,60 @@
+<!doctype html>
+{% load static %}
+<html>
+
+<head>
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="left-panel-container">
+        <div id="left-panel-logo">
+            <img id="logo" src="static/img/icons/Logo.svg" alt="">
+        </div>
+        <div id="left-panel-searchbox">
+            <form action="" method="get">
+                <input id="search" type="text" placeholder="Buscar funcion">
+                <button id="send" type="submit" method="get"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+        <div id="left-panel-options">
+            <div class="left-panel-option">
+                <i class="fas fa-home"></i>
+                <a>Inicio</a>
+            </div>
+            <div class="left-panel-option"> 
+                <i class="fas fa-warehouse"></i>
+                <a>Inventario</a>
+            </div>
+            <div class="left-panel-option">
+                <i class="fas fa-key"></i>
+                <a>Gestionar</a>
+            </div>
+            <div class="left-panel-option">
+                <i class="fas fa-store"></i>
+                <a>PoS</a>
+            </div>
+            <div class="left-panel-option">
+                <i class="fas fa-chart-line"></i>
+                <a>Graficos</a>
+            </div>
+            <div class="left-panel-option">
+                <i class="fas fa-folder-open"></i>
+                <a>Reportes</a>
+            </div>
+            <div class="left-panel-option">
+                <i class="fas fa-clipboard-list"></i>
+                <a>Tareas</a>
+            </div>
+            <div class="left-panel-option">
+                <i class="fas fa-question"></i>
+                <a>Ayuda</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
